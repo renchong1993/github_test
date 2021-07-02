@@ -1,0 +1,220 @@
+Last login: Wed Jun 16 00:12:30 on console
+chongren@ChongdeAir ~ % cd
+chongren@ChongdeAir ~ % ls
+Desktop				Music
+Documents			Pictures
+Downloads			Public
+Library				PycharmProjects
+Movies				Ren_Chong_VS_Assignment_1.html
+chongren@ChongdeAir ~ % less Desktop
+Desktop is a directory
+chongren@ChongdeAir ~ % //
+zsh: permission denied: //
+chongren@ChongdeAir ~ % ..
+zsh: permission denied: ..
+chongren@ChongdeAir ~ % ./
+zsh: permission denied: ./
+chongren@ChongdeAir ~ % .
+.: not enough arguments
+chongren@ChongdeAir ~ % cd
+chongren@ChongdeAir ~ % cd/
+zsh: no such file or directory: cd/
+chongren@ChongdeAir ~ % .cd
+zsh: command not found: .cd
+chongren@ChongdeAir ~ % ..
+zsh: permission denied: ..
+chongren@ChongdeAir ~ % clear
+
+chongren@ChongdeAir ~ %  ~/
+zsh: permission denied: /Users/chongren/
+chongren@ChongdeAir ~ % cd
+chongren@ChongdeAir ~ %  pwd
+/Users/chongren
+chongren@ChongdeAir ~ % ls
+Desktop				Music
+Documents			Pictures
+Downloads			Public
+Library				PycharmProjects
+Movies				Ren_Chong_VS_Assignment_1.html
+chongren@ChongdeAir ~ % ls-l
+zsh: command not found: ls-l
+chongren@ChongdeAir ~ % ls -l
+total 8
+drwx------@ 15 chongren  staff   480 Jun 30 14:11 Desktop
+drwx------@ 17 chongren  staff   544 Jun 17 20:05 Documents
+drwx------@ 46 chongren  staff  1472 Jun 30 11:23 Downloads
+drwx------@ 70 chongren  staff  2240 May  1 15:49 Library
+drwx------   4 chongren  staff   128 Mar 23 14:05 Movies
+drwx------+  4 chongren  staff   128 Mar 30 03:07 Music
+drwx------+  4 chongren  staff   128 Mar 23 14:00 Pictures
+drwxr-xr-x+  4 chongren  staff   128 Mar 23 13:59 Public
+drwxr-xr-x   8 chongren  staff   256 May 10 01:12 PycharmProjects
+-rw-r--r--@  1 chongren  staff    11 May 24 10:08 Ren_Chong_VS_Assignment_1.html
+chongren@ChongdeAir ~ % less Desktop
+Desktop is a directory
+chongren@ChongdeAir ~ % pwd
+/Users/chongren
+chongren@ChongdeAir ~ % cd Desktop
+chongren@ChongdeAir Desktop % ls
+Chong Ren Resume.docx		扇贝编程学习资料
+CodingDojo			找工作
+Git_Test			杂物
+test				重要文件
+截屏2021-06-25 11.48.41.png	针对性简历
+chongren@ChongdeAir Desktop % cd CodingDojo
+chongren@ChongdeAir CodingDojo % ls
+Algorithm_Book_(02-09-2016).pdf	Python
+Coding DoJo Homework		WebFundamentals
+Java
+chongren@ChongdeAir CodingDojo % WebFundamentals
+zsh: command not found: WebFundamentals
+chongren@ChongdeAir CodingDojo % ls
+Algorithm_Book_(02-09-2016).pdf	Python
+Coding DoJo Homework		WebFundamentals
+Java
+chongren@ChongdeAir CodingDojo % open
+Usage: open [-e] [-t] [-f] [-W] [-R] [-n] [-g] [-h] [-s <partial SDK name>][-b <bundle identifier>] [-a <application>] [filenames] [--args arguments]
+Help: Open opens files from a shell.
+      By default, opens each file using the default application for that file.  
+      If the file is in the form of a URL, the file will be opened as a URL.
+Options: 
+      -a                    Opens with the specified application.
+      -b                    Opens with the specified application bundle identifier.
+      -e                    Opens with TextEdit.
+      -t                    Opens with default text editor.
+      -f                    Reads input from standard input and opens with TextEdit.
+      -F  --fresh           Launches the app fresh, that is, without restoring windows. Saved persistent state is lost, excluding Untitled documents.
+      -R, --reveal          Selects in the Finder instead of opening.
+      -W, --wait-apps       Blocks until the used applications are closed (even if they were already running).
+          --args            All remaining arguments are passed in argv to the application's main() function instead of opened.
+      -n, --new             Open a new instance of the application even if one is already running.
+      -j, --hide            Launches the app hidden.
+      -g, --background      Does not bring the application to the foreground.
+      -h, --header          Searches header file locations for headers matching the given filenames, and opens them.
+      -s                    For -h, the SDK to use; if supplied, only SDKs whose names contain the argument value are searched.
+                            Otherwise the highest versioned SDK in each platform is used.
+      -i, --stdin  PATH     Launches the application with stdin connected to PATH; defaults to /dev/null
+      -o, --stdout PATH     Launches the application with /dev/stdout connected to PATH; 
+          --stderr PATH     Launches the application with /dev/stderr connected to PATH to
+          --env    VAR      Add an enviroment variable to the launched process, where VAR is formatted AAA=foo or just AAA for a null string value.
+chongren@ChongdeAir CodingDojo % ls
+Algorithm_Book_(02-09-2016).pdf	Python
+Coding DoJo Homework		WebFundamentals
+Java
+chongren@ChongdeAir CodingDojo % cd/
+zsh: no such file or directory: cd/
+chongren@ChongdeAir CodingDojo % pwd
+/Users/chongren/Desktop/CodingDojo
+chongren@ChongdeAir CodingDojo % cd /
+chongren@ChongdeAir / % pwd
+/
+chongren@ChongdeAir / % less
+Missing filename ("less --help" for help)
+chongren@ChongdeAir / % ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+chongren@ChongdeAir / % clr
+zsh: command not found: clr
+chongren@ChongdeAir / % clear
+
+chongren@ChongdeAir / % cd
+chongren@ChongdeAir ~ % pwd
+/Users/chongren
+chongren@ChongdeAir ~ % ls
+Desktop				Music
+Documents			Pictures
+Downloads			Public
+Library				PycharmProjects
+Movies				Ren_Chong_VS_Assignment_1.html
+chongren@ChongdeAir ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chongren@ChongdeAir ~ % pwd
+/Users/chongren
+chongren@ChongdeAir ~ % ls
+Desktop				Music
+Documents			Pictures
+Downloads			Public
+Library				PycharmProjects
+Movies				Ren_Chong_VS_Assignment_1.html
+chongren@ChongdeAir ~ % cd Desktop
+chongren@ChongdeAir Desktop % pwd
+/Users/chongren/Desktop
+chongren@ChongdeAir Desktop % mkdir test1
+chongren@ChongdeAir Desktop % ls
+Chong Ren Resume.docx		扇贝编程学习资料
+CodingDojo			找工作
+Git_Test			杂物
+test				重要文件
+test1				针对性简历
+截屏2021-06-25 11.48.41.png
+chongren@ChongdeAir Desktop % cd test1
+chongren@ChongdeAir test1 % pwd
+/Users/chongren/Desktop/test1
+chongren@ChongdeAir test1 % touch index.html
+chongren@ChongdeAir test1 % ls
+index.html
+chongren@ChongdeAir test1 % touch styles.css
+chongren@ChongdeAir test1 % touch commands.txt
+chongren@ChongdeAir test1 % ls
+commands.txt	index.html	styles.css
+chongren@ChongdeAir test1 % cp index.html index_2.html
+chongren@ChongdeAir test1 % ls
+commands.txt	index.html	index_2.html	styles.css
+chongren@ChongdeAir test1 % cd ..
+chongren@ChongdeAir Desktop % pwd
+/Users/chongren/Desktop
+chongren@ChongdeAir Desktop % mkdir destination
+chongren@ChongdeAir Desktop % ls
+Chong Ren Resume.docx		截屏2021-06-25 11.48.41.png
+CodingDojo			扇贝编程学习资料
+Git_Test			找工作
+destination			杂物
+test				重要文件
+test1				针对性简历
+chongren@ChongdeAir Desktop % mv ./test1/index_2.html ./destination
+chongren@ChongdeAir Desktop % cd destination
+chongren@ChongdeAir destination % ls
+index_2.html
+chongren@ChongdeAir destination % cd ..
+chongren@ChongdeAir Desktop % rm ./test1/styles.css
+chongren@ChongdeAir Desktop % test1
+zsh: command not found: test1
+chongren@ChongdeAir Desktop % cd test1
+chongren@ChongdeAir test1 % ls
+commands.txt	index.html
+chongren@ChongdeAir test1 % rm -rf destination
+chongren@ChongdeAir test1 % ls
+commands.txt	index.html
+chongren@ChongdeAir test1 % cd ..
+chongren@ChongdeAir Desktop % ls
+Chong Ren Resume.docx		截屏2021-06-25 11.48.41.png
+CodingDojo			扇贝编程学习资料
+Git_Test			找工作
+destination			杂物
+test				重要文件
+test1				针对性简历
+chongren@ChongdeAir Desktop % rm -rf destination
+chongren@ChongdeAir Desktop % ls
+Chong Ren Resume.docx		扇贝编程学习资料
+CodingDojo			找工作
+Git_Test			杂物
+test				重要文件
+test1				针对性简历
+截屏2021-06-25 11.48.41.png
+chongren@ChongdeAir Desktop % open ./test1/commands.txt
+chongren@ChongdeAir Desktop % vim ./test1/commands.txt
